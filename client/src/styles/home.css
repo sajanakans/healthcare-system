@@ -1,0 +1,6 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Ensure horizontal overflow is hidden */
+  margin-top: 60px; /* Adjust this value as needed */
+}

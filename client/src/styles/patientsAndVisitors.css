@@ -1,0 +1,68 @@
+.patient-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 1200px !important;
+}
+
+.image-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 550px !important;
+  background-image: url('../assets/images/patient-bg1.jpg') !important;
+  background-size: cover;
+  background-position: top;
+}
+
+.card-container {
+  width: 850px !important;
+  background-color: #ffffff;
+  padding: 15px 60px 25px 60px !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: flex;
+  text-align: center;
+  margin-top: 550px !important;
+  color: black;
+}
+
+.image-list {
+  width: 75%;
+  height: auto;
+  margin-top: 175px;
+}
+
+.list-subheader {
+  margin-bottom: 16px;
+}
+
+.image-list-item {
+  margin: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-list-item:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: '32px';
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Merriweather', serif !important;
+}
+
+.para {
+  width: 100%;
+  line-height: 2;
+  font-size: 13px;
+  font-family: 'Merriweather', serif !important;
+}
+
+.MuiImageListItemBar-title,
+.MuiImageListItemBar-root .MuiImageListItemBar-title + .MuiImageListItemBar-title {
+  margin-left: 10px;
+  font-family: 'Merriweather', serif !important;
+}

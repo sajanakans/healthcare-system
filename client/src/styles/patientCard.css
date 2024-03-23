@@ -1,0 +1,64 @@
+.patient-card-container {
+  margin: 15px;
+}
+
+.card {
+  padding-bottom: 25px !important;
+  margin: 0;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.patient-header {
+  display: flex;
+  justify-content: center;
+  background-color: #043C81;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-family: 'Merriweather', serif !important;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+} 
+
+.patient-details-table-container {
+  /* max-height: 450px; */
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px 10px 0px 10px !important;
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.table {
+  width: 275px;
+  white-space: nowrap;
+  table-layout: fixed;
+  max-height: 100%;
+}
+
+.table th,
+.table td {
+  padding: 0.35rem;
+}
+
+.table > :not(caption) > * > * {
+  border-bottom-width: 0px;
+}
+
+.patient-details-table-container td {
+  font-size: 12px !important;
+  font-family: 'Merriweather', serif !important;
+  color: #434343;
+  text-align: left;
+}
+
+.patient-label {
+  width: 100px;
+  font-weight: bold;
+  margin-right: 10px !important;
+}
+
+.separator {
+  margin: 0px 10px !important;
+  width: 5px;
+}
